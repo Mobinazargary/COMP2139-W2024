@@ -15,6 +15,42 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/mobinazargary/Documents/GitProjects/COMP2129-W2024/COMP2139-Labs/COMP2139-Labs
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/mobinazargary/Documents/GitProjects/COMP2129-W2024/COMP2139-Labs/COMP2139-Labs/COMP2139-W2024/Documents/GitProjects/COMP2129-W2024/COMP2139-Labs/COMP2139-Labs/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q09NUDIxMzktVzIwMjQvRG9jdW1lbnRzL0dpdFByb2plY3RzL0NPTVAyMTI5LVcyMDI0L0NPTVAyMTM5LUxhYnMvQ09NUDIxMzktTGFicy9WaWV3cy9Ib21lL0Fib3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mobinazargary/Documents/GitProjects/COMP2129-W2024/COMP2139-Labs/COMP2139-Labs/COMP2139-W2024/Documents/GitProjects/COMP2129-W2024/COMP2139-Labs/COMP2139-Labs/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q09NUDIxMzktVzIwMjQvRG9jdW1lbnRzL0dpdFByb2plY3RzL0NPTVAyMTI5LVcyMDI0L0NPTVAyMTM5LUxhYnMvQ09NUDIxMzktTGFicy9WaWV3cy9Ib21lL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mobinazargary/Documents/GitProjects/COMP2129-W2024/COMP2139-Labs/COMP2139-Labs/COMP2139-W2024/Documents/GitProjects/COMP2129-W2024/COMP2139-Labs/COMP2139-Labs/Views/Project/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q09NUDIxMzktVzIwMjQvRG9jdW1lbnRzL0dpdFByb2plY3RzL0NPTVAyMTI5LVcyMDI0L0NPTVAyMTM5LUxhYnMvQ09NUDIxMzktTGFicy9WaWV3cy9Qcm9qZWN0L0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mobinazargary/Documents/GitProjects/COMP2129-W2024/COMP2139-Labs/COMP2139-Labs/COMP2139-W2024/Documents/GitProjects/COMP2129-W2024/COMP2139-Labs/COMP2139-Labs/Views/Project/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q09NUDIxMzktVzIwMjQvRG9jdW1lbnRzL0dpdFByb2plY3RzL0NPTVAyMTI5LVcyMDI0L0NPTVAyMTM5LUxhYnMvQ09NUDIxMzktTGFicy9WaWV3cy9Qcm9qZWN0L0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mobinazargary/Documents/GitProjects/COMP2129-W2024/COMP2139-Labs/COMP2139-Labs/COMP2139-W2024/Documents/GitProjects/COMP2129-W2024/COMP2139-Labs/COMP2139-Labs/Views/Project/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q09NUDIxMzktVzIwMjQvRG9jdW1lbnRzL0dpdFByb2plY3RzL0NPTVAyMTI5LVcyMDI0L0NPTVAyMTM5LUxhYnMvQ09NUDIxMzktTGFicy9WaWV3cy9Qcm9qZWN0L0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mobinazargary/Documents/GitProjects/COMP2129-W2024/COMP2139-Labs/COMP2139-Labs/COMP2139-W2024/Documents/GitProjects/COMP2129-W2024/COMP2139-Labs/COMP2139-Labs/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q09NUDIxMzktVzIwMjQvRG9jdW1lbnRzL0dpdFByb2plY3RzL0NPTVAyMTI5LVcyMDI0L0NPTVAyMTM5LUxhYnMvQ09NUDIxMzktTGFicy9WaWV3cy9TaGFyZWQvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mobinazargary/Documents/GitProjects/COMP2129-W2024/COMP2139-Labs/COMP2139-Labs/COMP2139-W2024/Documents/GitProjects/COMP2129-W2024/COMP2139-Labs/COMP2139-Labs/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q09NUDIxMzktVzIwMjQvRG9jdW1lbnRzL0dpdFByb2plY3RzL0NPTVAyMTI5LVcyMDI0L0NPTVAyMTM5LUxhYnMvQ09NUDIxMzktTGFicy9WaWV3cy9TaGFyZWQvX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mobinazargary/Documents/GitProjects/COMP2129-W2024/COMP2139-Labs/COMP2139-Labs/COMP2139-W2024/Documents/GitProjects/COMP2129-W2024/COMP2139-Labs/COMP2139-Labs/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q09NUDIxMzktVzIwMjQvRG9jdW1lbnRzL0dpdFByb2plY3RzL0NPTVAyMTI5LVcyMDI0L0NPTVAyMTM5LUxhYnMvQ09NUDIxMzktTGFicy9WaWV3cy9fVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mobinazargary/Documents/GitProjects/COMP2129-W2024/COMP2139-Labs/COMP2139-Labs/COMP2139-W2024/Documents/GitProjects/COMP2129-W2024/COMP2139-Labs/COMP2139-Labs/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q09NUDIxMzktVzIwMjQvRG9jdW1lbnRzL0dpdFByb2plY3RzL0NPTVAyMTI5LVcyMDI0L0NPTVAyMTM5LUxhYnMvQ09NUDIxMzktTGFicy9WaWV3cy9fVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/mobinazargary/Documents/GitProjects/COMP2129-W2024/COMP2139-Labs/COMP2139-Labs/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -50,6 +86,10 @@ build_metadata.AdditionalFiles.CssScope =
 [/Users/mobinazargary/Documents/GitProjects/COMP2129-W2024/COMP2139-Labs/COMP2139-Labs/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mobinazargary/Documents/GitProjects/COMP2129-W2024/COMP2139-Labs/COMP2139-Labs/COMP2139-W2024/Documents/GitProjects/COMP2129-W2024/COMP2139-Labs/COMP2139-Labs/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q09NUDIxMzktVzIwMjQvRG9jdW1lbnRzL0dpdFByb2plY3RzL0NPTVAyMTI5LVcyMDI0L0NPTVAyMTM5LUxhYnMvQ09NUDIxMzktTGFicy9WaWV3cy9TaGFyZWQvX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-el82721wi7
 
 [/Users/mobinazargary/Documents/GitProjects/COMP2129-W2024/COMP2139-Labs/COMP2139-Labs/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
