@@ -1,0 +1,28 @@
+﻿@model GBC_Travel_Group_170.Models.FlightReservation
+@{
+
+    ViewData["Title"] = "Reservation Details";
+}
+
+<h2>Reservation Details</h2>
+<hr />
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.FirstName)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.FirstName)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Email)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Email)</dd>
+
+        <dt class="col-sm-2">Flight Airline</dt>
+        <dd class="col-sm-10">@Model.Flight.Airline</dd>
+
+        <dt class="col-sm-2">Flight DepartureCity </dt>
+        <dd class="col-sm-10">@Model.Flight.DepartureCity</dd>
+        <dt class="col-sm-2">Flight ArrivalCity</dt>
+        <dd class="col-sm-10">@Model.Flight.ArrivalCity</dd>
+        <dt class="col-sm-2">Flight DepartureDat</dt>
+        <dd class="col-sm-10">@Model.Flight.DepartureDate</dd>
+        <dt class="col-sm-2">Flight ArrivalDate </dt>
+        <dd class="col-sm-10">@Model.Flight.ArrivalDate</dd>
+</div>

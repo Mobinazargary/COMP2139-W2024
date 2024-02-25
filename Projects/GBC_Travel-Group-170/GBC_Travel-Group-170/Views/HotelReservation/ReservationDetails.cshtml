@@ -1,0 +1,23 @@
+﻿@model GBC_Travel_Group_170.Models.HotelReservation
+@{
+    ViewData["Title"] = "Reservation Details";
+}
+
+<h2>Reservation Details</h2>
+<hr />
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.FirstName)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.FirstName)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Email)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Email)</dd>
+
+        <dt class="col-sm-2">Hotel Name</dt>
+        <dd class="col-sm-10">@Model.Hotel.Name</dd> 
+        <dt class="col-sm-2" >Hotel Location</dt>
+        <dd class="col-sm-10">@Model.Hotel.Location</dd>
+        <dt class="col-sm-2">Hotel Amenities</dt>
+        <dd class="col-sm-10">@Model.Hotel.Amenities</dd>
+    </dl>
+</div>

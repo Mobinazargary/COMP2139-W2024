@@ -1,0 +1,49 @@
+﻿@model Hotel
+@{
+    ViewData["Title"] = "Delete Hotel";
+}
+
+<style>
+    body, html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+</style>
+<h2>Delete Hotel</h2>
+
+
+
+<div class="alert alert-danger bg-white">
+    <h3>Are you Sure you want to Delete this Hotel?</h3>
+
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Name)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Name)</dd>
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Location)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Location)</dd>
+
+
+        <!-- Add any other properties you wish to display -->
+
+    </dl>
+</div>
+
+
+<form asp-action="DeleteConfirmed" method="post">
+    @Html.HiddenFor(model => model.HotelID)
+
+    <input type="submit" value="Delete" class="btn btn-danger" />
+    <a asp-action="Index" asp-route-hotelID="@Model.HotelID" class="btn btn-secondary">Cancel</a>
+</form>
+
+
+@section Scripts {
+
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+
+    }
+}
+

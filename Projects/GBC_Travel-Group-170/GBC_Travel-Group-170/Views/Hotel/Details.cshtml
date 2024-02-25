@@ -1,0 +1,73 @@
+﻿@model Hotel
+@{
+    ViewData["Title"] = "Hotel Detail";
+}
+<style>
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+    body, html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+</style>
+<section class="about top bg-light text-dark py-5 shadow">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="heading">
+                    <h2 class="font-weight-bold"><i class="fas fa-hotel"></i>@Model.Name</h2>
+                </div>
+                <p>
+                    @Model.Description
+                    <span class="font-weight-bold">@Model.Location</span>
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="rooms py-5 shadow">
+    <div class="container">
+        <div class="heading">
+            <h1 class="display-4 font-weight-bold mb-3 text-black">EXPLORE</h1>
+            <h2 class="font-weight-bold">Our Rooms</h2>
+        </div>
+        <div class="room-details-box p-4 bg-light border border-dark rounded">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="font-weight-bold text-info">@Model.Type</h3>
+                    <span class="font-weight-bold text-muted">Price per night: $@Model.PricePerNight</span>
+                    <a asp-action="Reserve" asp-controller="HotelReservation" asp-route-reserveId="@Model.HotelID" class="btn btn-primary mt-3">Make Reservation</a>
+                </div>
+                <div class="col-md-6">
+                    <!-- You can add an image of the room here if available -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="services top bg-light text-dark py-5 shadow">
+    <div class="container">
+        <div class="heading">
+            <h1 class="display-4 font-weight-bold mb-3 text-black">SERVICES</h1>
+            <h2 class="font-weight-bold">Our Services</h2>
+            <p class="text-muted">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h3 class="font-weight-bold">@Model.Amenities</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="images/service.png" alt="" class="img-fluid shadow">
+            </div>
+        </div>
+    </div>
+</section>

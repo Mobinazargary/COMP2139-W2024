@@ -1,0 +1,89 @@
+﻿@model List<CarRental>
+@{
+    ViewData["Title"] = "Car Rentals";
+}
+
+<style>
+    body, html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .car-card {
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .car-details, .car-footer {
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    }
+</style>
+
+<h2 class="text-center mb-4">Available Cars</h2>
+
+<div class="container">
+    <div class="container">
+        @using (Html.BeginForm("Search", "CarRental", FormMethod.Get, new { @class = "main-search-form" }))
+        {
+            <div class="form-row mb-4">
+                <div class="col">
+                    <input type="text" name="location" placeholder="Enter Location" class="form-control" />
+                </div>
+                <div class="col">
+                    <input type="number" name="searchYear" placeholder="Enter Year" class="form-control" />
+                </div>
+                <div class="col">
+                    <input type="text" name="brand" placeholder="Enter Brand" class="form-control" />
+                </div>
+                <div class="col">
+                    <input type="text" name="model" placeholder="Enter Model" class="form-control" />
+                </div>
+                <div class="col">
+                    <button type="submit" class="btn btn-primary">Search Cars</button>
+                </div>
+            </div>
+        }
+    </div>
+
+    
+
+    @if (Model.Any())
+    {
+        <div class="row">
+            @foreach (var carRental in Model)
+            {
+                <div class="col-md-12 mb-4">
+                    <div class="card car-card bg-lightblue border-blue shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">@carRental.Brand @carRental.Model</h5>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-calendar-alt"></i> Year: @carRental.Year</li>
+                                <li><i class="fas fa-map-marker-alt"></i> Location: @carRental.Location</li>
+                                <li><i class="fas fa-dollar-sign"></i> Price Per Day: $@carRental.PricePerDay</li>
+                                <li><i class="fas fa-clock"></i> AvailabilityStartDate: @carRental.AvailabilityStartDate<li>
+                                <li><i class="fas fa-clock"></i> AvailabilityEndDate: @carRental.AvailabilityEndDate</li>
+
+                            </ul>
+                        </div>
+                        <div class="card-footer text-center bg-lightblue">
+                            <a href="@Url.Action("Details", new { id = carRental.CarRentalId })" class="btn btn-info mr-2"><i class="fas fa-info-circle"></i> Details</a>
+                            <a href="@Url.Action("Delete", new { id = carRental.CarRentalId })" class="btn btn-danger mr-2"><i class="fas fa-trash"></i> Delete</a>
+                            <a href="@Url.Action("Update", new { id = carRental.CarRentalId })" class="btn btn-secondary"><i class="fas fa-edit"></i> Update</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+    }
+    else
+    {
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="alert alert-warning" role="alert">
+                    No Car Rentals Available
+                </div>
+            </div>
+        </div>
+    }
+</div>

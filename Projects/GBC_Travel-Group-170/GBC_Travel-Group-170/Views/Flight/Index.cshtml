@@ -1,0 +1,90 @@
+﻿@model List<Flight>
+@{
+    ViewData["Title"] = "Flights";
+}
+
+<style>
+
+    body, html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .flight-card {
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .flight-details, .flight-footer {
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    }
+</style>
+
+<h2 class="text-center mb-4">Available Flights</h2>
+
+<div class="container">
+    <div class="row mb-4">
+        <div class="col-md-12">
+            <form method="get" action="@Url.Action("Search")">
+                <div class="form-row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Airline" name="airline">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Departure City" name="departureCity">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Arrival City" name="arrivalCity">
+                    </div>
+                    <div class="col">
+                        <input type="date" class="form-control" placeholder="Departure Date" name="departureDate">
+                    </div>
+                    <div class="col">
+                        <input type="date" class="form-control" placeholder="Arrival Date" name="arrivalDate">
+                    </div>
+                    <div class="col">
+                        <button type="submit" class="btn btn-primary">Search</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    @if (Model.Any())
+    {
+        <div class="row">
+            @foreach (var flight in Model)
+            {
+                <div class="col-md-12 mb-4">
+                    <div class="card flight-card bg-lightblue border-blue shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">@flight.Airline</h5>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-plane-departure"></i> Departure City: @flight.DepartureCity</li>
+                                <li><i class="fas fa-plane-arrival"></i> Arrival City: @flight.ArrivalCity</li>
+                                <li><i class="fas fa-calendar-alt"></i> Departure Date: @flight.DepartureDate.ToShortDateString()</li>
+                                <li><i class="fas fa-calendar-alt"></i> Arrival Date: @flight.ArrivalDate.ToShortDateString()</li>
+                                <li><i class="fas fa-dollar-sign"></i> Price: $@flight.Price</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer text-center bg-lightblue">
+                            <a href="@Url.Action("Details", new { id = flight.FlightId })" class="btn btn-info mr-2"><i class="fas fa-info-circle"></i> Details</a>
+                            <a href="@Url.Action("Delete", new { id = flight.FlightId })" class="btn btn-danger mr-2"><i class="fas fa-trash"></i> Delete</a>
+                            <a href="@Url.Action("Update", new { id = flight.FlightId })" class="btn btn-secondary"><i class="fas fa-edit"></i> Update</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="alert alert-warning" role="alert">
+                    No Flights Available
+                </div>
+            </div>
+        </div>
+    }
+</div>

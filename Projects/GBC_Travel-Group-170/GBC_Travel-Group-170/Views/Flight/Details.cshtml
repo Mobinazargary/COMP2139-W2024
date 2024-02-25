@@ -1,0 +1,50 @@
+﻿@model Flight
+@{
+    ViewData["Title"] = "Flight Detail";
+}
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+      
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="about top bg-light text-dark py-5 shadow">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="heading">
+                    
+                        <h2 class="font-weight-bold"><i class="fas fa-plane"></i>@Model.Airline</h2>
+                    </div>
+                    <p>
+                        Departure City: @Model.DepartureCity <br>
+                        Arrival City: @Model.ArrivalCity <br>
+                        Departure Date: @Model.DepartureDate.ToShortDateString() <br>
+                        Arrival Date: @Model.ArrivalDate.ToShortDateString() <br>
+                        Price: $@Model.Price
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/flight.png" alt="" class="img-fluid">
+                </div>
+
+                <a asp-action="Reserve" asp-controller="FlightReservation" asp-route-reserveId="@Model.FlightId" class="btn btn-primary">Make Reservation</a>
+            </div>
+        </div>
+    </section>
+
+    
+</body>

@@ -1,0 +1,88 @@
+﻿<Properties StartupConfiguration="{8372A81D-6623-4212-97F4-18E39DEFE46F}|https">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GBC_Travel-Group-170/Views/Hotel/Update.cshtml">
+    <Files>
+      <File FileName="GBC_Travel-Group-170/Views/Shared/_Layout.cshtml" Line="22" Column="10" />
+      <File FileName="GBC_Travel-Group-170/Views/Home/Index.cshtml" Line="104" Column="1" />
+      <File FileName="GBC_Travel-Group-170/Views/Shared/_ValidationScriptsPartial.cshtml" />
+      <File FileName="GBC_Travel-Group-170/wwwroot/css/site.css" Line="17" Column="12" />
+      <File FileName="GBC_Travel-Group-170/Models/Hotel.cs" Line="1" Column="1" />
+      <File FileName="GBC_Travel-Group-170/Controllers/HotelController.cs" Line="74" Column="1" />
+      <File FileName="GBC_Travel-Group-170/Program.cs" Line="1" Column="1" />
+      <File FileName="GBC_Travel-Group-170/Views/Hotel/Index.cshtml" Line="71" Column="60" />
+      <File FileName="GBC_Travel-Group-170/Data/ApplicationDbContext.cs" Line="14" Column="9" />
+      <File FileName="GBC_Travel-Group-170/appsettings.json" />
+      <File FileName="GBC_Travel-Group-170/Startup.cs" Line="26" Column="1" />
+      <File FileName="../../../../usr/local/share/dotnet/sdk/7.0.312/Microsoft.Common.CurrentVersion.targets" />
+      <File FileName="GBC_Travel-Group-170/Views/Hotel/Details.cshtml" Line="8" Column="6" />
+      <File FileName="GBC_Travel-Group-170/Controllers/HomeController.cs" />
+      <File FileName="GBC_Travel-Group-170/Views/Hotel/Delete.cshtml" Line="17" Column="40" />
+      <File FileName="GBC_Travel-Group-170/Views/Hotel/Update.cshtml" Line="28" Column="5" />
+      <File FileName="GBC_Travel-Group-170/Models/ErrorViewModel.cs" />
+      <File FileName="GBC_Travel-Group-170/GBC_Travel-Group-170.csproj" />
+      <File FileName="GBC_Travel-Group-170/Models/Flight.cs" Line="1" Column="1" />
+      <File FileName="GBC_Travel-Group-170/Views/Flight/Index.cshtml" Line="12" Column="6" />
+      <File FileName="GBC_Travel-Group-170/Views/Flight/Details.cshtml" Line="10" Column="9" />
+      <File FileName="GBC_Travel-Group-170/Views/Flight/Delete.cshtml" Line="15" Column="13" />
+      <File FileName="GBC_Travel-Group-170/Views/Flight/Update.cshtml" Line="1" Column="1" />
+      <File FileName="GBC_Travel-Group-170/Models/CarRental.cs" Line="1" Column="5" />
+      <File FileName="GBC_Travel-Group-170/Controllers/CarRentalController.cs" Line="84" Column="1" />
+      <File FileName="GBC_Travel-Group-170/Views/CarRental/Index.cshtml" Line="64" Column="87" />
+      <File FileName="GBC_Travel-Group-170/Views/CarRental/Delete.cshtml" Line="11" Column="1" />
+      <File FileName="GBC_Travel-Group-170/Views/CarRental/Details.cshtml" Line="13" Column="9" />
+      <File FileName="GBC_Travel-Group-170/Views/CarRental/Update.cshtml" Line="20" Column="11" />
+      <File FileName="GBC_Travel-Group-170/Controllers/HotelReservationController.cs" />
+      <File FileName="GBC_Travel-Group-170/Views/HotelReservation/Reserve.cshtml" Line="1" Column="1" />
+      <File FileName="GBC_Travel-Group-170/Views/HotelReservation/ReservationDetails.cshtml" Line="11" Column="30" />
+      <File FileName="GBC_Travel-Group-170/Controllers/FlightReservationController.cs" />
+      <File FileName="GBC_Travel-Group-170/Models/FlightReservation.cs" />
+      <File FileName="GBC_Travel-Group-170/Views/FlightReservation/Reserve.cshtml" Line="1" Column="1" />
+      <File FileName="GBC_Travel-Group-170/Models/CarRentalReservation.cs" Line="1" Column="6" />
+      <File FileName="GBC_Travel-Group-170/Controllers/CarRentalReservationController.cs" />
+      <File FileName="GBC_Travel-Group-170/Views/CarRentalReservation/Reserve.cshtml" />
+      <File FileName="GBC_Travel-Group-170/Views/CarRentalReservation/ReservationDetails.cshtml" Line="8" Column="7" />
+      <File FileName="GBC_Travel-Group-170/wwwroot/js/site.js" Line="1" Column="1" />
+      <File FileName="GBC_Travel-Group-170/Properties/launchSettings.json" />
+      <File FileName="GBC_Travel-Group-170/Controllers/FlightController.cs" Line="62" Column="8" />
+      <File FileName="GBC_Travel-Group-170/Models/HotelReservation.cs" Line="1" Column="1" />
+      <File FileName="GBC_Travel-Group-170/Migrations/20240224230919_Initial.cs" />
+      <File FileName="GBC_Travel-Group-170/Views/FlightReservation/ReservationDetails.cshtml" Line="18" Column="30" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name=" GBC_Travel-Group-170" expanded="True">
+            <Node name="GBC_Travel-Group-170">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="CarRental" expanded="True" />
+                <Node name="CarRentalReservation" expanded="True" />
+                <Node name="Flight" expanded="True" />
+                <Node name="FlightReservation" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Hotel" expanded="True">
+                  <Node name="Update.cshtml" selected="True" />
+                </Node>
+                <Node name="HotelReservation" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+                <Node name="js" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.GBC__Travel-Group-170 PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
