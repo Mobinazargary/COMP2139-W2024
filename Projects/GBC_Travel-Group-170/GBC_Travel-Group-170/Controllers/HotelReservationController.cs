@@ -68,5 +68,7 @@ namespace GBC_Travel_Group_170.Controllers
 
             return View(reservation);
         }
+
+  
     }
 }

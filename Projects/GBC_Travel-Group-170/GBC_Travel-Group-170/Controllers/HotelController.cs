@@ -1,4 +1,8 @@
-﻿using System;
+﻿using GBC_Travel_Group_170.Data;
+using GBC_Travel_Group_170.Models;
+using Microsoft.AspNetCore.Mvc;
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -27,8 +31,8 @@ namespace GBC_Travel_Group_170.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            var hotel = _context.Hotels.ToList();
-            return View(hotel);
+            var hotels = _context.Hotels.ToList();
+            return View(hotels);
         }
 
 
@@ -37,13 +41,37 @@ namespace GBC_Travel_Group_170.Controllers
         public IActionResult Details(int id)
         {
             var hotel = _context.Hotels
-                                .FirstOrDefault(h => h.HotelID == id);
+                               .FirstOrDefault(h => h.HotelID == id);
             if (hotel == null)
             {
                 return NotFound();
             }
             return View(hotel);
         }
+
+        [HttpGet]
+        public IActionResult Add()
+        {
+            return View();
+        }
+
+
+
+
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Add(Hotel hotel)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Hotels.Add(hotel);
+                _context.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(hotel);
+        }
+
 
 
         [HttpGet]
@@ -65,16 +93,41 @@ namespace GBC_Travel_Group_170.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Hotels.Update(hotel);
-                _context.SaveChanges();
-                return RedirectToAction("Index");
+                try
+                {
+                    // Update the hotel entity in the database
+                    _context.Hotels.Update(hotel);
+                    _context.SaveChanges();
+
+                    // Redirect to the index page after successful update
+                    return RedirectToAction("Index");
+                }
+                catch (Exception ex)
+                {
+                    // Log the exception or handle it appropriately
+                    ModelState.AddModelError("", "An error occurred while updating the hotel.");
+                    return View(hotel); // Return the view with the model to display the error
+                }
             }
-            return View(hotel);
+            else
+            {
+                // If ModelState is not valid, there are errors
+                // You can iterate over ModelState.Errors to inspect the errors
+                foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
+                {
+                    // Log or handle each error as needed
+                    Console.WriteLine(error.ErrorMessage);
+                }
+
+                // Return the view with the model to display validation errors
+                return View(hotel);
+            }
         }
 
 
 
 
+        // Confirms the deletion of a project
         [HttpGet]
         public IActionResult Delete(int id)
         {
@@ -88,12 +141,12 @@ namespace GBC_Travel_Group_170.Controllers
 
 
 
-
+        // Processes the deletion of a project
         [HttpPost, ActionName("DeleteConfirmed")]
         [ValidateAntiForgeryToken]
-        public IActionResult DeleteConfirmed(int hotelID)
+        public IActionResult DeleteConfirmed(int hotelId)
         {
-            var hotel= _context.Hotels.Find(hotelID);
+            var hotel = _context.Hotels.Find(hotelId);
 
             if (hotel != null)
             {
@@ -105,11 +158,7 @@ namespace GBC_Travel_Group_170.Controllers
 
             return NotFound();
         }
-
-
-
-
-        public IActionResult Search(string name, string location, string startdate, string enddate,string type)
+        public IActionResult Search(string name, string location, string startdate, string enddate, string type)
         {
             var hotels = _context.Hotels.AsQueryable();
 
@@ -147,4 +196,11 @@ namespace GBC_Travel_Group_170.Controllers
 
     }
 }
+
+
+
+
+
+
+
 

@@ -36,6 +36,30 @@ namespace GBC_Travel_Group_170.Controllers
             }
             return View(carRental);
         }
+        [HttpGet]
+        public IActionResult Add()
+        {
+            return View();
+        }
+
+
+
+
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Add(CarRental carRental)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.CarRentals.Add(carRental);
+                _context.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(carRental);
+        }
+
+
 
         [HttpGet]
         public IActionResult Update(int id)

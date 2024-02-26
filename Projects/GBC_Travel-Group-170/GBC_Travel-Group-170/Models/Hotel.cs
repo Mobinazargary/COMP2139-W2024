@@ -26,8 +26,6 @@ namespace GBC_Travel_Group_170.Models
         [Column(TypeName = "TEXT")]
         public string Amenities { get; set; }
 
-        
-
         [Required]
         [DataType(DataType.Date)]
         public DateTime StartDate { get; set; }

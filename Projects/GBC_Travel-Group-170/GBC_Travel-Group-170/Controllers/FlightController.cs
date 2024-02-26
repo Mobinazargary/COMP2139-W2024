@@ -44,6 +44,28 @@ namespace GBC_Travel_Group_170.Controllers
             return View(flight);
         }
 
+        [HttpGet]
+        public IActionResult Add()
+        {
+            return View();
+        }
+
+
+
+
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Add(Flight flight)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Flights.Add(flight);
+                _context.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(flight);
+        }
 
 
         [HttpGet]

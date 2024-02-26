@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/mobinazargary/Projects/GBC_Travel-Group-170/GBC_Travel-Group-170
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/mobinazargary/Projects/GBC_Travel-Group-170/GBC_Travel-Group-170/Views/CarRental/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FyUmVudGFsL0FkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/mobinazargary/Projects/GBC_Travel-Group-170/GBC_Travel-Group-170/Views/CarRental/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FyUmVudGFsL0RlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -38,6 +42,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/mobinazargary/Projects/GBC_Travel-Group-170/GBC_Travel-Group-170/Views/CarRentalReservation/Reserve.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FyUmVudGFsUmVzZXJ2YXRpb24vUmVzZXJ2ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mobinazargary/Projects/GBC_Travel-Group-170/GBC_Travel-Group-170/Views/Flight/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmxpZ2h0L0FkZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/mobinazargary/Projects/GBC_Travel-Group-170/GBC_Travel-Group-170/Views/Flight/Delete.cshtml]
@@ -70,6 +78,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/mobinazargary/Projects/GBC_Travel-Group-170/GBC_Travel-Group-170/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mobinazargary/Projects/GBC_Travel-Group-170/GBC_Travel-Group-170/Views/Hotel/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG90ZWwvQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/mobinazargary/Projects/GBC_Travel-Group-170/GBC_Travel-Group-170/Views/Hotel/Delete.cshtml]

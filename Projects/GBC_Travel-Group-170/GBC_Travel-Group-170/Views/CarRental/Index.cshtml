@@ -45,7 +45,7 @@
         }
     </div>
 
-    
+
 
     @if (Model.Any())
     {
@@ -60,7 +60,8 @@
                                 <li><i class="fas fa-calendar-alt"></i> Year: @carRental.Year</li>
                                 <li><i class="fas fa-map-marker-alt"></i> Location: @carRental.Location</li>
                                 <li><i class="fas fa-dollar-sign"></i> Price Per Day: $@carRental.PricePerDay</li>
-                                <li><i class="fas fa-clock"></i> AvailabilityStartDate: @carRental.AvailabilityStartDate<li>
+                                <li><i class="fas fa-clock"></i> AvailabilityStartDate: @carRental.AvailabilityStartDate
+                                <li>
                                 <li><i class="fas fa-clock"></i> AvailabilityEndDate: @carRental.AvailabilityEndDate</li>
 
                             </ul>
@@ -74,6 +75,7 @@
                 </div>
             }
         </div>
+        <a class="btn btn-primary" asp-action="Add">Add new car</a>
 
     }
     else
