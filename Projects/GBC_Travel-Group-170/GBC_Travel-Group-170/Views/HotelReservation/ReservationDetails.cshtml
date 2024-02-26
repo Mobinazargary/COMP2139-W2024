@@ -14,10 +14,11 @@
         <dd class="col-sm-10">@Html.DisplayFor(model => model.Email)</dd>
 
         <dt class="col-sm-2">Hotel Name</dt>
-        <dd class="col-sm-10">@Model.Hotel.Name</dd> 
-        <dt class="col-sm-2" >Hotel Location</dt>
+        <dd class="col-sm-10">@Model.Hotel.Name</dd>
+        <dt class="col-sm-2">Hotel Location</dt>
         <dd class="col-sm-10">@Model.Hotel.Location</dd>
         <dt class="col-sm-2">Hotel Amenities</dt>
         <dd class="col-sm-10">@Model.Hotel.Amenities</dd>
     </dl>
+    <a asp-controller="Hotel" asp-action="Index" class="btn btn-secondary">Back to List</a>
 </div>
