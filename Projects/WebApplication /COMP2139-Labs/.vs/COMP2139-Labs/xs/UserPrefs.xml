@@ -1,0 +1,76 @@
+﻿<Properties StartupConfiguration="{2CAC2F81-0B4B-4EBB-9877-8FE9CC67376C}|https">
+  <MonoDevelop.Ide.Workbench ActiveDocument="COMP2139-Labs/Data/ApplicationDbContextFactory.cs">
+    <Files>
+      <File FileName="COMP2139-Labs/Areas/Identity/Pages/Account/_ValidationScriptsPartial.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/Identity/Pages/Account/_ViewImports.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/Identity/Pages/Account/_ViewStart.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/Identity/Pages/_LoginPartial.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/Identity/Pages/Account/Manage/ConfirmEmail.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/Identity/Pages/Account/Manage/Login.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/Identity/Pages/Account/Manage/LogOut.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/Identity/Pages/Account/Manage/Register.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/ProjectManagement/Components/ProjectSummary/ProjectSummaryViewComponent.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/ProjectManagement/Controllers/ProjectCommentController.cs" />
+      <File FileName="COMP2139-Labs/Areas/ProjectManagement/Controllers/ProjectController.cs" />
+      <File FileName="COMP2139-Labs/Areas/ProjectManagement/Controllers/TaskController.cs" />
+      <File FileName="COMP2139-Labs/Areas/ProjectManagement/Models/Project.cs" />
+      <File FileName="COMP2139-Labs/Areas/ProjectManagement/Models/ProjectComment.cs" />
+      <File FileName="COMP2139-Labs/Areas/ProjectManagement/Models/ProjectTask.cs" />
+      <File FileName="COMP2139-Labs/Areas/ProjectManagement/Views/_ViewImports.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/ProjectManagement/Views/_ViewStart.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/ProjectManagement/Views/Project/Index.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/ProjectManagement/Views/Project/Create.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/ProjectManagement/Views/Project/Delete.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/ProjectManagement/Views/Project/Edit.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/ProjectManagement/Views/Project/Details.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/ProjectManagement/Views/Tasks/Index.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/ProjectManagement/Views/Tasks/Create.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/ProjectManagement/Views/Tasks/Delete.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/ProjectManagement/Views/Tasks/Details.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/ProjectManagement/Views/Tasks/Edit.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/ProjectManagement/Views/Shared/DisplayTemplates/ProjectDescription.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/ProjectManagement/Views/Shared/DisplayTemplates/ProjectName.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/ProjectManagement/Views/Shared/DisplayTemplates/ProjectTaskTitle.cshtml" />
+      <File FileName="COMP2139-Labs/Views/Home/Index.cshtml" />
+      <File FileName="COMP2139-Labs/Views/Home/About.cshtml" />
+      <File FileName="COMP2139-Labs/Views/Shared/Components/ProjectSummary/Default.cshtml" />
+      <File FileName="COMP2139-Labs/Views/Shared/DisplayTemplates/DateTime.cshtml" />
+      <File FileName="COMP2139-Labs/Views/Shared/DisplayTemplates/ProjectDescription.cshtml" />
+      <File FileName="COMP2139-Labs/Views/Shared/DisplayTemplates/ProjectName.cshtml" />
+      <File FileName="COMP2139-Labs/Views/Shared/DisplayTemplates/ProjectTaskTitle.cshtml" />
+      <File FileName="COMP2139-Labs/Views/Shared/_Footer.cshtml" />
+      <File FileName="COMP2139-Labs/Views/Shared/_Header.cshtml" />
+      <File FileName="COMP2139-Labs/Views/Shared/_Navbar.cshtml" />
+      <File FileName="COMP2139-Labs/wwwroot/js/ProjectComment.js" />
+      <File FileName="COMP2139-Labs/Services/EmailSender.cs" />
+      <File FileName="COMP2139-Labs/Data/ApplicationDbContext.cs" />
+      <File FileName="COMP2139-Labs/Data/ApplicationDbContextFactory.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="COMP2139-Labs" expanded="True">
+            <Node name="COMP2139-Labs" expanded="True">
+              <Node name="Areas" expanded="True">
+                <Node name="Identity" expanded="True">
+                  <Node name="Pages" expanded="True">
+                    <Node name="Account" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Data" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.COMP2139-Labs FirstBuild="True" PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
