@@ -2,38 +2,45 @@
     ViewData["Title"] = "Home Page";
 }
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 
-<style>
-    body {
-        background-color: #f8f9fa; /* Light gray background for a subtle, modern look */
-        overflow: hidden; /* Prevents scrolling by hiding overflow */
-    }
+<body class="bg-light">
+    <div class="container py-5">
+        <div class="text-center">
+            <h1 class="display-4">Welcome to Project Collaborate</h1>
+            <p class="lead">Your one-stop solution for managing projects and tasks efficiently.</p>
+        </div>
 
-    .welcome-message {
-        padding: 2rem 1rem; /* Reduced padding to accommodate larger text without scrolling */
-        background: white; /* White background for the text area */
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Soft shadow for depth */
-        border-radius: 0.5rem; /* Rounded corners for the container */
-        margin: 10vh auto; /* Centers the container with vertical margin based on viewport height */
-        max-width: 800px; /* Max width for the container */
-    }
-
-        .welcome-message h1 {
-            font-size: 3rem; /* Significantly larger font size for the main title */
-            margin-bottom: 0.5rem; /* Reduced spacing below the title */
-        }
-
-        .welcome-message p {
-            font-size: 1.5rem; /* Larger font size for paragraph, comfortable for reading without scrolling */
-        }
-</style>
-
-<div class="container">
-    <div class="welcome-message text-center">
-        <h1>Welcome to COMP2139 Labs</h1>
-        <p>Welcome to my page. Here you can find my projects and their tasks. You can also find information about me.</p>
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">Project Management</h3>
+                        <i class="bi bi-bar-chart-line fs-1"></i>
+                        <p class="card-text">Organize and track all your projects in one place. Gain insights into project progress and status.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">Task Tracking</h3>
+                        <i class="bi bi-list-check fs-1"></i>
+                        <p class="card-text">Keep track of tasks, assign them to team members, and monitor deadlines to ensure timely completion.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">Collaborative Environment</h3>
+                        <i class="bi bi-people fs-1"></i>
+                        <p class="card-text">Foster collaboration among team members with shared goals, communication tools, and more.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
 
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+</body>

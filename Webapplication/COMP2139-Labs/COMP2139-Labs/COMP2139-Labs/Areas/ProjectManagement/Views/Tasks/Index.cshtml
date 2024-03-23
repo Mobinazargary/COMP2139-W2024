@@ -4,16 +4,6 @@
     var projectId = ViewBag.ProjectId;
 }
 
-<style>
-    .task-table th, .task-table td {
-        vertical-align: middle;
-    }
-
-    .btn-custom {
-        margin-right: 5px;
-    }
-</style>
-
 <div class="container mt-5">
     <h2 class="mb-4">Tasks List</h2>
 
@@ -39,8 +29,8 @@
                             <td>@Html.DisplayFor(modelItem => item.Description)</td>
                             <td>@Html.DisplayFor(modelItem => item.ProjectId)</td>
                             <td>
-                                <a asp-area="ProjectManagement" asp-controller="Tasks" asp-action="Details" asp-route-id="@item.ProjectTaskId" class="btn btn-info btn-custom">Details</a>
-                                <a asp-area="ProjectManagement" asp-controller="Tasks" asp-action="Edit" asp-route-id="@item.ProjectTaskId" class="btn btn-secondary btn-custom">Edit</a>
+                                <a asp-area="ProjectManagement" asp-controller="Tasks" asp-action="Details" asp-route-id="@item.ProjectTaskId" class="btn btn-primary btn-custom">Details</a>
+                                <a asp-area="ProjectManagement" asp-controller="Tasks" asp-action="Edit" asp-route-id="@item.ProjectTaskId" class="btn btn-success btn-custom">Edit</a>
                                 <a asp-area="ProjectManagement" asp-controller="Tasks" asp-action="Delete" asp-route-id="@item.ProjectTaskId" class="btn btn-danger">Delete</a>
                             </td>
                         </tr>
@@ -48,11 +38,12 @@
                 </tbody>
             </table>
         </div>
-        <a asp-area="ProjectManagement" asp-controller="Tasks" asp-action="Create" asp-route-projectId="@projectId" class="btn btn-primary">Add New Task</a>
+
         <a asp-area="ProjectManagement" asp-controller="Project" asp-action="Index" class="btn btn-secondary">Back to Projects</a>
     }
     else
     {
         <p>No Tasks Available</p>
     }
+    <a asp-area="ProjectManagement" asp-controller="Tasks" asp-action="Create" asp-route-projectId="@projectId" class="btn btn-primary">Create New Task</a>
 </div>

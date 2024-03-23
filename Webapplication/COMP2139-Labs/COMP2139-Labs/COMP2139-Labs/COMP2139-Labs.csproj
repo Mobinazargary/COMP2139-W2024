@@ -45,7 +45,6 @@
     <None Remove="Views\Shared\Components\" />
     <None Remove="Views\Shared\Components\ProjectSummary\" />
     <None Remove="Views\Shared\DisplayTemplates\" />
-    <None Remove="Areas\Identity\Pages\Account\Manage\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Areas\" />
@@ -65,6 +64,5 @@
     <Folder Include="Views\Shared\Components\" />
     <Folder Include="Views\Shared\Components\ProjectSummary\" />
     <Folder Include="Views\Shared\DisplayTemplates\" />
-    <Folder Include="Areas\Identity\Pages\Account\Manage\" />
   </ItemGroup>
 </Project>

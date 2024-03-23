@@ -17,7 +17,7 @@ namespace COMP2139_Labs.Services
         {
             var client = new SendGridClient(_sendGridKey);
 
-            var from = new EmailAddress("melina.behzadinejad@georgebrown.ca", "Project collaborate");
+            var from = new EmailAddress("mobinasadatzargary@gmail.com", "Project collaborate");
 
             var to = new EmailAddress(email);
 
