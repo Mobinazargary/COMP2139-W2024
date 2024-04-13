@@ -1,0 +1,86 @@
+﻿<Properties StartupConfiguration="{6B566981-F77E-40B1-A5B4-96CA2F861576}|https">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="COMP2139-Labs/appsettings.json">
+    <Files>
+      <File FileName="COMP2139-Labs/Areas/Identity/Pages/Account/ConfirmEmail.cshtml" Line="1" Column="1" />
+      <File FileName="COMP2139-Labs/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/Identity/Pages/Account/_ViewImports.cshtml" />
+      <File FileName="COMP2139-Labs/Views/Shared/_Layout.cshtml.css" />
+      <File FileName="COMP2139-Labs/Views/Shared/_Footer.cshtml" />
+      <File FileName="COMP2139-Labs/appsettings.json" Line="15" Column="4" />
+      <File FileName="COMP2139-Labs/Services/EmailSender.cs" Line="20" Column="70" />
+      <File FileName="COMP2139-Labs/Program.cs" Line="1" Column="1" />
+      <File FileName="COMP2139-Labs/StartUp.cs" />
+      <File FileName="COMP2139-Labs/ScaffoldingReadMe.txt" />
+      <File FileName="COMP2139-Labs/Areas/ProjectManagement/Models/ProjectComment.cs" />
+      <File FileName="COMP2139-Labs/Areas/Identity/Pages/Account/Manage/Index.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/Identity/Pages/Account/Manage/Index.cshtml.cs" />
+      <File FileName="COMP2139-Labs/Views/Shared/_Navbar.cshtml" />
+      <File FileName="COMP2139-Labs/Enum/Roles.cs" />
+      <File FileName="COMP2139-Labs/Data/ContextSeed.cs" />
+      <File FileName="COMP2139-Labs/Data/ApplicationDbContext.cs" />
+      <File FileName="COMP2139-Labs/Areas/Identity/Pages/Account/Register.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/Identity/Pages/Account/Register.cshtml.cs" />
+      <File FileName="COMP2139-Labs/Areas/Identity/Pages/Account/Login.cshtml.cs" />
+      <File FileName="COMP2139-Labs/Areas/Identity/Pages/Account/Login.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/Identity/Pages/Account/LoginWith2fa.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/ProjectManagement/Controllers/ProjectController.cs" />
+      <File FileName="COMP2139-Labs/Views/RoleManager/Index.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/ProjectManagement/Models/ApplicationUser.cs" />
+      <File FileName="COMP2139-Labs/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/Identity/Pages/Account/Manage/_Layout.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml" />
+      <File FileName="COMP2139-Labs/Models/ViewModels/UserRoleViewModel.cs" />
+      <File FileName="COMP2139-Labs/Models/ViewModels/ManageUserRolesViewModel.cs" />
+      <File FileName="COMP2139-Labs/Data/ApplicationDbContextFactory.cs" />
+      <File FileName="COMP2139-Labs/Controllers/RoleManagerController.cs" />
+      <File FileName="COMP2139-Labs/Controllers/UserRolesController.cs" />
+      <File FileName="COMP2139-Labs/Controllers/HomeController.cs" />
+      <File FileName="COMP2139-Labs/Areas/ProjectManagement/Controllers/ProjectCommentController.cs" />
+      <File FileName="COMP2139-Labs/Areas/ProjectManagement/Views/Project/Create.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/ProjectManagement/Views/Project/Delete.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/ProjectManagement/Views/Project/Details.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/ProjectManagement/Views/Project/Edit.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/ProjectManagement/Views/Project/Index.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/ProjectManagement/Views/_ViewImports.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/ProjectManagement/Views/Tasks/Delete.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/ProjectManagement/Views/Tasks/Create.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/ProjectManagement/Views/Tasks/Details.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/ProjectManagement/Views/Tasks/Index.cshtml" />
+      <File FileName="COMP2139-Labs/Views/Home/Index.cshtml" />
+      <File FileName="COMP2139-Labs/Views/Shared/_Header.cshtml" />
+      <File FileName="COMP2139-Labs/Views/Shared/_Layout.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/Identity/Pages/Account/ExternalLogin.cshtml" />
+      <File FileName="COMP2139-Labs/Areas/Identity/Pages/Account/Manage/ManageNavPages.cs" />
+      <File FileName="COMP2139-Labs/Areas/Identity/Pages/Account/_StatusMessage.cshtml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="COMP2139-Labs">
+            <Node name="COMP2139-Labs" expanded="True">
+              <Node name="Areas" expanded="True">
+                <Node name="Identity" expanded="True">
+                  <Node name="Pages" expanded="True">
+                    <Node name="Account" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Services" expanded="True" />
+              <Node name="appsettings.json" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.COMP2139-Labs PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+</Properties>

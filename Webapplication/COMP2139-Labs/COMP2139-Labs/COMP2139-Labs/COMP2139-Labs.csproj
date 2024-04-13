@@ -45,6 +45,9 @@
     <None Remove="Views\Shared\Components\" />
     <None Remove="Views\Shared\Components\ProjectSummary\" />
     <None Remove="Views\Shared\DisplayTemplates\" />
+    <None Remove="Enum\" />
+    <None Remove="Views\RoleManager\" />
+    <None Remove="Models\ViewModels\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Areas\" />
@@ -64,5 +67,11 @@
     <Folder Include="Views\Shared\Components\" />
     <Folder Include="Views\Shared\Components\ProjectSummary\" />
     <Folder Include="Views\Shared\DisplayTemplates\" />
+    <Folder Include="Enum\" />
+    <Folder Include="Views\RoleManager\" />
+    <Folder Include="Models\ViewModels\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.editorconfig" />
   </ItemGroup>
 </Project>
